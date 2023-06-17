@@ -13,9 +13,11 @@ func studyArray() {
 	var arr1 = [2]int{1, 2}
 	log.Println("arr1:", arr1)
 
-	arr2 := [2]int{3, 4}
+	arr2 := [3]int{3, 4, 5}
 	log.Println("arr2:", arr2)
 
-	var arr3 [2]string
-	log.Println(arr3)
+	for i := 0; i <= len(arr2)-1; i++ {
+		log.Println("arr2 idx i:", i, "=", arr2[i])
+	}
+
 }
