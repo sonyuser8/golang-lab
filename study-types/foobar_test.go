@@ -9,3 +9,7 @@ func TestStudyArray(t *testing.T) {
 func TestStudySlice(t *testing.T) {
 	studySlice()
 }
+
+func TestStudyMakeAndNew(t *testing.T) {
+	studyMakeAndNew()
+}
