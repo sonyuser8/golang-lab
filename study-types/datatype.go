@@ -16,5 +16,6 @@ func studyArray() {
 	arr2 := [2]int{3, 4}
 	log.Println("arr2:", arr2)
 
-	// var arr3 [
+	var arr3 [2]string
+	log.Println(arr3)
 }
