@@ -32,7 +32,7 @@ func studyArray() {
 
 	log.Println("loop method 2")
 	// [+] loop method3: I don't need a index
-	for _, el := range arr2 {
+	for _, el := range arr2 { // _ stands for anonymous var
 		log.Println("arr2 el", "=", el)
 	}
 	// [-]

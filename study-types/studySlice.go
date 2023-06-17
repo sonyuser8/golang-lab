@@ -16,4 +16,8 @@ func studySlice() {
 	// slice2 := [2]int{1, 2}
 	log.Printf("Type of slice2 is %T", slice2)
 	log.Println("Type of slice2 is ", slice2)
+
+	var slice3 []int
+	log.Printf("Type of slice3 is %T", slice3)
+	log.Println("Type of slice3 is ", slice3)
 }

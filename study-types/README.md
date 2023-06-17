@@ -10,4 +10,5 @@ go test
 # run specific test
 go test -v -run TestStudyArray
 go test -v -run TestStudySlice
+go test -v -run TestStudyMakeAndNews
 ```
