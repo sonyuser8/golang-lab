@@ -30,4 +30,11 @@ func studyArray() {
 	}
 	// [-]
 
+	log.Println("loop method 2")
+	// [+] loop method3: I don't need a index
+	for _, el := range arr2 {
+		log.Println("arr2 el", "=", el)
+	}
+	// [-]
+
 }
