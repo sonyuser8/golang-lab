@@ -16,11 +16,3 @@ func studyArray() {
 	m2 := [2]int{3, 4}
 	log.Println("m2:", m2)
 }
-
-func studyArray2() {
-	log.SetFlags(log.LstdFlags | log.Lmicroseconds)
-
-	// playground here
-	log.Println("m0:")
-
-}
