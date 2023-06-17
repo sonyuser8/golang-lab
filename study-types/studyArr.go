@@ -16,8 +16,18 @@ func studyArray() {
 	arr2 := [3]int{3, 4, 5}
 	log.Println("arr2:", arr2)
 
+	log.Println("loop method 1")
+	// [+] loop method1
 	for i := 0; i <= len(arr2)-1; i++ {
 		log.Println("arr2 idx i:", i, "=", arr2[i])
 	}
+	// [-]
+
+	log.Println("loop method 2")
+	// [+] loop method2
+	for i, num := range arr2 {
+		log.Println("arr2 idx i:", i, "=", num)
+	}
+	// [-]
 
 }
