@@ -25,8 +25,8 @@ func studyArray() {
 
 	log.Println("loop method 2")
 	// [+] loop method2
-	for i, num := range arr2 {
-		log.Println("arr2 idx i:", i, "=", num)
+	for i, el := range arr2 {
+		log.Println("arr2 idx i:", i, "=", el)
 	}
 	// [-]
 
