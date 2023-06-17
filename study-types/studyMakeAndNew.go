@@ -9,7 +9,11 @@ func studyMakeAndNew() {
 	// make(T, args) & new(T)
 	// - make(chan bool)
 	// - make([]int, 5)
-	slice := make([]int, 5)
-	log.Printf("Type of slice2 is %T", slice)
-	log.Println("Type of slice2 is ", slice)
+
+	// make() only works with slices, maps, and channels & new() works with any
+	s := make([]int, 0)
+	m := make(map[int]int)
+	c := make(chan bool)
+
+	log.Println(s, m, c)
 }
