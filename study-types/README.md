@@ -21,3 +21,5 @@ go test -v -run TestStudyMap
 4. channel
 5. functional programming
 6. go routine
+7. map
+8. tuple

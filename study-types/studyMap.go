@@ -7,6 +7,13 @@ import (
 func studyMap() {
 	log.SetFlags(log.LstdFlags | log.Lmicroseconds)
 	// playground here
-	var slice1 []int = []int{1, 2, 3, 4, 5} // []int means a int slice
-	log.Println("Value of slice1 is ", slice1)
+	var mp map[string]int = map[string]int{
+		"apple":  5,
+		"pear":   6,
+		"orange": 9,
+	}
+	log.Println(mp)
+
+	var mp2 = make(map[string]int) // makes a empty map
+	log.Println(mp2)
 }
