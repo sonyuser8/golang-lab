@@ -13,3 +13,7 @@ func TestStudySlice(t *testing.T) {
 func TestStudyMakeAndNew(t *testing.T) {
 	studyMakeAndNew()
 }
+
+func TestStudyMap(t *testing.T) {
+	studyMap()
+}
