@@ -15,11 +15,14 @@ go test -v -run TestStudyMap
 ```
 
 # to do list
+4. channel
+3. new and make
 1. struct
 2. pointer
-3. new and make
-4. channel
 5. functional programming
 6. go routine
 7. map
 8. tuple
+9. mutex
+10. lock
+11. config?
